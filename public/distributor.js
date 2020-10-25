@@ -8,7 +8,7 @@ const resources = [
     "jsloaded": false
   },
   {
-    "name": "Timer",
+    "name": "PWM",
     "id": "timer",
     "js_file": "timer.js",
     "displayer": "timerDisplayer",
@@ -107,6 +107,5 @@ const sidebarContent = resources.map((resource) => {
 
 window.onload = () => {
   document.getElementById('sidebarContent').innerHTML = sidebarContent.join('');
-  console.log(sidebarContent);
 }
 
