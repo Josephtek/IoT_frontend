@@ -43,24 +43,17 @@ const resources = [
     "jsloaded": false
   },
   {
-    "name": "DAC",
-    "id": "dac",
-    "js_file": "dac.js",
-    "displayer": "dacDisplayer",
+    "name": "Clock",
+    "id": "clock",
+    "js_file": "clock.js",
+    "displayer": "clockDisplayer",
     "jsloaded": false
   },
   {
-    "name": "Scheduler",
-    "id": "scheduler",
-    "js_file": "scheduler.js",
-    "displayer": "schedulerDisplayer",
-    "jsloaded": false
-  },
-  {
-    "name": "File System",
-    "id": "filesystem",
-    "js_file": "filesystem.js",
-    "displayer": "filesystemDisplayer",
+    "name": "Tasks",
+    "id": "tasks",
+    "js_file": "tasks.js",
+    "displayer": "tasksDisplayer",
     "jsloaded": false
   },
   {
